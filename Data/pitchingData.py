@@ -6,12 +6,12 @@ from FilePath import pitchingDataPath
 data = pitching_stats(2024, qual=5)
 
 #Find Home and Away Pitchers Stats
-home_pitcher = "Tanner Houck"
-away_pitcher = "Chris Sale"
+home_pitcher = 'Tanner Houck'
+away_pitcher = 'Chris Sale'
 
 #Get Pitching Stats for Both Pitchers
-home_pitcher_stats = data[data["Name"]] == home_pitcher
-away_pitcher_stats = data[data["Name"]] == away_pitcher
+home_pitcher_stats = data[data['Name'] == home_pitcher]
+away_pitcher_stats = data[data['Name'] == away_pitcher]
 
 #Combine Home and Away stats into one table
 combined_stats = pd.concat([home_pitcher_stats, away_pitcher_stats])

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51bab3b4-245b-4f6f-b865-0ff0725997ca" name="Changes" comment="Hitting Data">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/hittingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/hittingData.py" afterDir="false" />
+    <list default="true" id="51bab3b4-245b-4f6f-b865-0ff0725997ca" name="Changes" comment="Pitching Data">
+      <change beforePath="$PROJECT_DIR$/Data/pitchingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/pitchingData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gX3O668uHOPzN6emTd2wEao7pV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.hittingData.executor": "Run",
+    "Python.pitchingData.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "settings.editor.selected.configurable": "configurable.group.tools"
   }
@@ -76,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715833496109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pitching Data">
+      <option name="closed" value="true" />
+      <created>1716004952391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716004952391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init Commit" />
     <MESSAGE value="Hitting Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hitting Data" />
+    <MESSAGE value="Pitching Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pitching Data" />
   </component>
 </project>
