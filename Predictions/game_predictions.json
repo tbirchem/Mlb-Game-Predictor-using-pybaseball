@@ -1,0 +1,42 @@
+[
+  {
+    "predicted_winner": "Los Angeles Dodgers",
+    "confidence": 2.6621666666666663
+  },
+  {
+    "predicted_winner": "Baltimore Orioles",
+    "confidence": 2.1615833333333336
+  },
+  {
+    "predicted_winner": "Toronto Blue Jays",
+    "confidence": 1.8445833333333335
+  },
+  {
+    "predicted_winner": "New York Yankees",
+    "confidence": 1.7036287878787881
+  },
+  {
+    "predicted_winner": "Tampa Bay Rays",
+    "confidence": 1.389104166666667
+  },
+  {
+    "predicted_winner": "Baltimore Orioles",
+    "confidence": 1.1615833333333334
+  },
+  {
+    "predicted_winner": "Cleveland Guardians",
+    "confidence": 1.0362628205128197
+  },
+  {
+    "predicted_winner": "Minnesota Twins",
+    "confidence": 0.5908626373626373
+  },
+  {
+    "predicted_winner": "Atlanta Braves",
+    "confidence": 0.27124999999999977
+  },
+  {
+    "predicted_winner": "Houston Astros",
+    "confidence": 0.24857051282051268
+  }
+]
