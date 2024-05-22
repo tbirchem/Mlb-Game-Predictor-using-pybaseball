@@ -1,24 +1,27 @@
 from pybaseball import pitching_stats
-import pandas as pd
-from FilePath import pitchingDataPath
+import json
+import os
 
-#Org Data Query
+# Data Pull
 data = pitching_stats(2024, qual=5)
 
-#Find Home and Away Pitchers Stats
-home_pitcher = 'Tanner Houck'
-away_pitcher = 'Chris Sale'
+# Keep only necessary columns
+pitcher_stats = data[['Name', 'xERA', 'ERA', 'Stuff+']]
 
-#Get Pitching Stats for Both Pitchers
-home_pitcher_stats = data[data['Name'] == home_pitcher]
-away_pitcher_stats = data[data['Name'] == away_pitcher]
+# Create a dictionary where pitcher names are keys and pitching statistics are values
+pitcher_stats_dict = {}
+for index, row in pitcher_stats.iterrows():
+    pitcher_name = row['Name']
+    pitcher_stats_dict[pitcher_name] = row.drop('Name').to_dict()
 
-#Combine Home and Away stats into one table
-combined_stats = pd.concat([home_pitcher_stats, away_pitcher_stats])
-combined_stats.reset_index(drop=True, inplace=True)
+# Define the output file path within the project directory
+json_file_path = os.path.join(os.getcwd(), 'sp_pitching_stats.json')
 
-#Export Data to CSV
-combined_stats.to_csv(pitchingDataPath, index=False)
+# Save the pitching data dictionary to a JSON file within the project directory
+with open(json_file_path, 'w') as json_file:
+    json.dump(pitcher_stats_dict, json_file, indent=4)
+
+
 
 
 

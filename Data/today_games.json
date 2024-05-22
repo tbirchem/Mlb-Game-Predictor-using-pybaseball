@@ -1,0 +1,98 @@
+[
+  {
+    "home_team": "St. Louis Cardinals",
+    "away_team": "Baltimore Orioles",
+    "home_pitcher": "Lance Lynn",
+    "away_pitcher": "Kyle Bradish"
+  },
+  {
+    "home_team": "Washington Nationals",
+    "away_team": "Minnesota Twins",
+    "home_pitcher": "Jake Irvin",
+    "away_pitcher": "Simeon Woods Richardson"
+  },
+  {
+    "home_team": "Cleveland Guardians",
+    "away_team": "New York Mets",
+    "home_pitcher": "Triston McKenzie",
+    "away_pitcher": "Jose Quintana"
+  },
+  {
+    "home_team": "St. Louis Cardinals",
+    "away_team": "Baltimore Orioles",
+    "home_pitcher": "Kyle Gibson",
+    "away_pitcher": "John Means"
+  },
+  {
+    "home_team": "Houston Astros",
+    "away_team": "Los Angeles Angels",
+    "home_pitcher": "Hunter Brown",
+    "away_pitcher": "Tyler Anderson"
+  },
+  {
+    "home_team": "Kansas City Royals",
+    "away_team": "Detroit Tigers",
+    "home_pitcher": "Cole Ragans",
+    "away_pitcher": "Tarik Skubal"
+  },
+  {
+    "home_team": "Cincinnati Reds",
+    "away_team": "San Diego Padres",
+    "home_pitcher": "Nick Martinez",
+    "away_pitcher": "Michael King"
+  },
+  {
+    "home_team": "Pittsburgh Pirates",
+    "away_team": "San Francisco Giants",
+    "home_pitcher": "Jared Jones",
+    "away_pitcher": "Blake Snell"
+  },
+  {
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Texas Rangers",
+    "home_pitcher": "Taijuan Walker",
+    "away_pitcher": "Dane Dunning"
+  },
+  {
+    "home_team": "Miami Marlins",
+    "away_team": "Milwaukee Brewers",
+    "home_pitcher": "Jes\u00fas Luzardo",
+    "away_pitcher": "Freddy Peralta"
+  },
+  {
+    "home_team": "Tampa Bay Rays",
+    "away_team": "Boston Red Sox",
+    "home_pitcher": "Ryan Pepiot",
+    "away_pitcher": "Brayan Bello"
+  },
+  {
+    "home_team": "New York Yankees",
+    "away_team": "Seattle Mariners",
+    "home_pitcher": "Nestor Cortes",
+    "away_pitcher": "Bryce Miller"
+  },
+  {
+    "home_team": "Toronto Blue Jays",
+    "away_team": "Chicago White Sox",
+    "home_pitcher": "Chris Bassitt",
+    "away_pitcher": "Nick Nastrini"
+  },
+  {
+    "home_team": "Chicago Cubs",
+    "away_team": "Atlanta Braves",
+    "home_pitcher": "Justin Steele",
+    "away_pitcher": "Max Fried"
+  },
+  {
+    "home_team": "Oakland Athletics",
+    "away_team": "Colorado Rockies",
+    "home_pitcher": "Mitch Spence",
+    "away_pitcher": "Austin Gomber"
+  },
+  {
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Arizona Diamondbacks",
+    "home_pitcher": "Tyler Glasnow",
+    "away_pitcher": "Ryne Nelson"
+  }
+]
