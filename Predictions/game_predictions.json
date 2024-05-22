@@ -1,42 +1,52 @@
 [
   {
     "predicted_winner": "Los Angeles Dodgers",
-    "confidence": 2.6621666666666663
+    "confidence": 2.6621666666666663,
+    "rank": 1
   },
   {
     "predicted_winner": "Baltimore Orioles",
-    "confidence": 2.1615833333333336
+    "confidence": 2.1615833333333336,
+    "rank": 2
   },
   {
     "predicted_winner": "Toronto Blue Jays",
-    "confidence": 1.8445833333333335
+    "confidence": 1.8445833333333335,
+    "rank": 3
   },
   {
     "predicted_winner": "New York Yankees",
-    "confidence": 1.7036287878787881
+    "confidence": 1.7036287878787881,
+    "rank": 4
   },
   {
     "predicted_winner": "Tampa Bay Rays",
-    "confidence": 1.389104166666667
+    "confidence": 1.389104166666667,
+    "rank": 5
   },
   {
     "predicted_winner": "Baltimore Orioles",
-    "confidence": 1.1615833333333334
+    "confidence": 1.1615833333333334,
+    "rank": 6
   },
   {
     "predicted_winner": "Cleveland Guardians",
-    "confidence": 1.0362628205128197
+    "confidence": 1.0362628205128197,
+    "rank": 7
   },
   {
     "predicted_winner": "Minnesota Twins",
-    "confidence": 0.5908626373626373
+    "confidence": 0.5908626373626373,
+    "rank": 8
   },
   {
     "predicted_winner": "Atlanta Braves",
-    "confidence": 0.27124999999999977
+    "confidence": 0.27124999999999977,
+    "rank": 9
   },
   {
     "predicted_winner": "Houston Astros",
-    "confidence": 0.24857051282051268
+    "confidence": 0.24857051282051268,
+    "rank": 10
   }
 ]

@@ -47,13 +47,13 @@ def predict_game_winner(game, team_batting_stats, team_pitching_stats):
     elif home_team_xOP == away_team_xOP and home_pitcher_xERA > away_pitcher_xERA:
         return game['away_team'], confidence
     else:
-        # In case of ties or inconclusive predictions, return None
-        return None, confidence
+        # In case of ties or inconclusive predictions, return default values
+        return None, None
+
 
 def predict_games(today_games, team_batting_stats, team_pitching_stats):
     predictions = []
 
-    # Iterate over each game and predict the winner
     for game in today_games:
         winner, confidence = predict_game_winner(game, team_batting_stats, team_pitching_stats)
         if winner:
@@ -64,6 +64,15 @@ def predict_games(today_games, team_batting_stats, team_pitching_stats):
 
     # Sort predictions by confidence in descending order
     predictions.sort(key=lambda x: x['confidence'], reverse=True)
+
+    # Assign ranks
+    rank = 0
+    prev_confidence = None
+    for prediction in predictions:
+        if prediction['confidence'] != prev_confidence:
+            rank += 1
+        prediction['rank'] = rank
+        prev_confidence = prediction['confidence']
 
     return predictions
 
